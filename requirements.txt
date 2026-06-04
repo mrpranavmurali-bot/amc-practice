@@ -1,0 +1,6 @@
+streamlit
+anthropic
+plotly
+base64
+os
+json
