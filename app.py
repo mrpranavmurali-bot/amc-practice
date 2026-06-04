@@ -7,13 +7,6 @@ import plotly.graph_objects as go # type: ignore[reportMissingImports]
 import base64
 
 # Top image
-def get_base64_image(image_path):
-    with open(image_path, "rb") as f:
-        data = f.read()
-    return base64.b64encode(data).decode()
-
-img = get_base64_image(os.path.join(os.path.dirname(__file__), "static", "image.png"))
-st.markdown(f'<img src="data:image.png;base64,{img}" style="width:100%; height:200px; object-fit:cover;">', unsafe_allow_html=True)
 
 # Session state variables start here
 
