@@ -13,7 +13,7 @@ import base64
 AUTHOR_NAME = "Pranav Murali"
 
 # Stub for testing without API calls
-STUB_MODE = True
+STUB_MODE = False
 
 # Log API calls and responses for debugging
 LOG_MODE = True
